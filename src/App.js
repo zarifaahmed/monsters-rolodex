@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import ClassComponent from './components/ClassComponent';
+// import UseEffComponent1 from './components/hook-components/UseEffComponent1';
+// import MainPage from './td-components/MainPage';
+import UD from './ud-components/UD';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UD/>
     </div>
   );
 }
